@@ -20,6 +20,7 @@ To run the ETL pipeline, ensure that you have the following prerequisites set up
 1. Python 3.x installed on your system.
 
 2. Required Python packages installed. You can install the necessary packages by running the following command in your terminal or command prompt:
+
       pip install boto3
    
       pip install python-dotenv
