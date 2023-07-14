@@ -13,7 +13,7 @@ The ETL pipeline consists of the following main components:
 
 2. `transformation2.py`: Python script that performs the necessary transformations on the extracted data from S3 buckets. This includes cleaning the data, applying datatype logic, joining datasets, and preparing the data for loading into Redshift.
 
-3. `transformation_final.py`: Python script that performs remaining transformations on files for datatypes to load into Redshift. 
+3. `transformation_final.py`: Python script that performs remaining transformations on files to force correct datatypes before loading into Redshift. 
 
 ## Prerequisites
 
