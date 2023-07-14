@@ -21,11 +21,17 @@ To run the ETL pipeline, ensure that you have the following prerequisites set up
 
 2. Required Python packages installed. You can install the necessary packages by running the following command in your terminal or command prompt:
       pip install boto3
+   
       pip install python-dotenv
+   
       pip install yfinance --upgrade --no-cache-dir
+   
       pip install yahooquery
+   
       pip install aiohttp
+   
       pip install dask "dask[complete]"
+   
       pip install geopy
 
 ## Usage
