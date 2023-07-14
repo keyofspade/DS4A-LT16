@@ -13,6 +13,8 @@ The ETL pipeline consists of the following main components:
 
 2. `transformation2.py`: Python script that performs the necessary transformations on the extracted data from S3 buckets. This includes cleaning the data, applying datatype logic, joining datasets, and preparing the data for loading into Redshift.
 
+3. `transformation_final.py`: Python script that performs remaining transformations on files for datatypes to load into Redshift. 
+
 ## Prerequisites
 
 To run the ETL pipeline, ensure that you have the following prerequisites set up:
@@ -42,6 +44,7 @@ To run the ETL pipeline, ensure that you have the following prerequisites set up
 2. Run the stages of pipeline by executing the following command in your terminal or command prompt:
        python storage2.py
        python transformation2.py
+       python transformation_final.py
    
    Sequentially execute steps for extraction and transformation of the datasets. 
 4. Monitor the console output for any errors or log messages during the execution of the pipeline.
