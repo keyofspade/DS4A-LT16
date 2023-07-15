@@ -57,6 +57,7 @@ To run the ETL pipeline, ensure that you have the following prerequisites set up
 5. Update sp_trunc_load_data to replace custom-redshift-role with specific IAM credentials.
    
 6. In the Redshift query editor, run the following:
+   
 	CALL sp_create_tables;
 
 	CALL sp_trunc_load_data;
