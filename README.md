@@ -16,8 +16,8 @@ The ETL pipeline consists of the following main components:
 
 4. `sp_create_tables.sql`: SQL (specifically PostgreSQL) script that creates the schema, consisting of four dimension tables and two fact tables.
    
-4. `sp_trunc_load_data.sql`: SQL (specifically PostgreSQL) script that copies data from the S3 bucket created from transformation_final.py.
-5. 
+5. `sp_trunc_load_data.sql`: SQL (specifically PostgreSQL) script that copies data from the S3 bucket created from transformation_final.py.
+ 
 ## Prerequisites
 
 To run the ETL pipeline, ensure that you have the following prerequisites set up:
